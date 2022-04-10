@@ -61,7 +61,7 @@ def getProducts(request):
     exclusive_image = ExclusiveImage.objects.all()
     exclusive_image_serializer = ExclusiveImageSerializer(exclusive_image, many=True)
 
- 
+    
     return Response({'products': product_serializer.data, 'exclusive': exclusive_serializer.data, 'exclusive_image': exclusive_image_serializer.data})
 
 @api_view(['GET'])

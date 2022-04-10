@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 from distutils.log import debug
 from pathlib import Path
 from datetime import timedelta
-import os
+import os, sys
 from unittest.mock import DEFAULT
 from dotenv import load_dotenv
 load_dotenv()
@@ -23,6 +23,7 @@ ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
 SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+sys.path.insert(1, os.path.dirname(os.path.realpath(__file__)))
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
