@@ -1,0 +1,25 @@
+
+.btn{
+    display: inline-block;
+    width: 20%;
+    height: 38px;
+
+    color: white;
+    background-color: #ff523b;
+
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: .8rem;
+    margin-bottom: 2rem;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(.98);
+}

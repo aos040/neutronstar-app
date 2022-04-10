@@ -1,0 +1,32 @@
+.box-parent{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
+    width: 100vw;
+}
+
+.box-child{
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: right;
+}
+
+
+.spread{
+    display: flex;
+    justify-content: center;
+}
+
+.edit{
+    flex-basis: 20%;
+}
+
+.box-parent Button{
+    width: 300px;
+    justify-self: center;
+    margin-bottom: 40px;
+}
+
+

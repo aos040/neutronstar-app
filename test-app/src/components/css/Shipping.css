@@ -1,0 +1,86 @@
+.shipping-container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;    
+}
+
+.shipping{
+    width: 80%;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 40% 85%);
+}
+
+.address{
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+    justify-content: center;
+    row-gap: .7rem;
+    margin-top: 5px;
+    
+}
+
+.address input{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid #ff523b;
+    border-radius: 5px;
+}
+
+
+
+.address input::placeholder, .postcode-city input::placeholder{
+    color: #000;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.postcode-city{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.postcode-city label{
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.postcode{
+    padding: 5px 10px;
+}
+
+.city{
+    padding: 5px 10px;
+}
+
+.postcode input, .city input{
+    padding: 10px;
+    border: 2px solid #ff523b;
+    border-radius: 5px;
+}
+
+
+.btn-contai{
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    justify-content: center;
+}
+
+.pickups-container{
+    height: 550px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.searchh{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 5px;
+}

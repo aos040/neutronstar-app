@@ -1,0 +1,151 @@
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.logo span{
+    color: #000;
+}
+
+.circle{
+    margin-right: 1rem;
+    color: #ff523b;
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.circle i{
+    font-size: 40px;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+.companyname{
+    color: #000;
+}
+
+.menu-container li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;    
+}
+
+.menu-container{
+    position: relative;
+}
+
+.menu-links{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: .5rem;
+    color: #000;
+}
+
+.menu-links i{
+    color: #ff523b;
+}
+
+.dropdown-links{
+    color: #000;
+    text-decoration: none;
+}
+
+.dropdown-links:hover{
+    transform: scale(1.5);
+    border-bottom: 1px solid red;;
+}
+
+.cart-link{
+    position: relative;
+}
+
+.numitems{
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    font-style: normal;
+}
+
+.menu-container li:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid #ff523b;
+}
+
+.log, .cartt{
+    margin: 10px
+}
+
+.display-profile{
+    position: relative;
+    z-index: 4000;
+}
+
+.dropdown{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    color: #000;
+    width: 100%;
+    z-index: 5000;
+
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.hide{
+    display: block;
+}
+
+/* Use child selector technique to show child when hovered parent */
+/* There is also another technique called adjecent selector, but irrelevent atm*/
+/* .hide{
+    display: block;
+}
+
+.display-profile:hover > .hide {
+    display: block;
+} */
+
+.dropdown small{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.dropdown small:hover{
+    transform: scale(.98);
+    color: #ff523b;
+}
+
+.dropdown Link{
+    color: #ff523b;
+}
+

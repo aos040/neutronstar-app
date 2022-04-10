@@ -1,0 +1,36 @@
+.point{
+    padding: 4px 10px;
+}
+
+.point p{
+    font-weight: bold;
+    padding: 3px;
+}
+
+.point small{
+    padding: 5px;
+}
+
+.point-btn{
+    width: 100%;
+    height: 2rem;
+    color: #fff;
+    background: #ff523b;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.point-btn:hover{
+    border-radius: 5px;
+    transform: scale(.98);
+}
+
+.point small i{
+    color: #ff523b;
+    margin-left: .7rem;
+}

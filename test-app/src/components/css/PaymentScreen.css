@@ -1,0 +1,52 @@
+
+.payment-form{
+    margin-top: 3rem;
+}
+.controller{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 15%);
+    justify-content: center;
+}
+
+.payment-form-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 10px;
+}
+
+.payment-form-control img{
+    max-width: 100px;
+}
+
+.vipps-pic{
+    min-width: 100px;
+}
+
+.payment-form h3{
+    text-align: center;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+
+.payment-form button{
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: #ff523b;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.payment-form button:hover{
+    
+    border-radius: 10px;
+    transform: scale(.98);
+}
+

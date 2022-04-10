@@ -1,0 +1,30 @@
+
+.checkout-nav{
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+
+.enable-link{
+    color: #ff523b;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.disable-link{
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(107, 104, 104);
+}
+
+.current-checkpoint{
+    color: rgb(12, 238, 151);
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+}

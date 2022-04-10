@@ -1,0 +1,67 @@
+
+.parent-order-container{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    column-gap: 2rem;
+    justify-content: center;
+
+}
+
+.order-info-container{
+    margin-top: 2rem;
+}
+
+.address-info small, .payment-info small{
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: .5rem;
+}
+
+.address-info h4, .payment-info h4{
+    padding: 5px;
+    margin-bottom: .5rem;
+}
+
+.payment-info img{
+    max-width: 50px;
+    padding: 5px;
+}
+
+
+.limit-container{
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y:auto;
+}
+
+.summary-container{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    
+}
+
+.summary{
+    padding: 5px 2rem;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    max-height: 300px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.summary h4{
+    padding: 5px;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.flat-sum{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.summary Button{
+    width: 100%;
+    font-weight: bold;
+}

@@ -1,0 +1,74 @@
+.form-container{
+    margin: 50px 20px;
+}
+
+.form-box{
+    
+    margin: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+
+label {
+    
+    border-radius: 15px;
+    width: 50%;
+    margin: 20px auto;
+    padding: auto;
+    text-align: center;
+}
+
+.form-box label input, .form-box label textarea{
+    display: block;
+    border: 1px solid #ff523b;;
+    background: #ff523b;
+    color: #fff;
+    transform: translateX(35%);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-box label input{
+    display: block;
+    margin-top: .7rem;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.form-box label textarea{
+    display: block;
+    margin-top: .7rem;
+    width: 60%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.form-box label input::placeholder,
+.form-box label textarea::placeholder {
+    font-style: italic;
+    text-align: center;
+    color: #fff
+}
+
+
+.sub-button{
+    width: 50%;
+    height: 80%;
+    margin: 20px auto;
+    padding: auto;
+    background: #ff523b;
+    color: #fff;
+    font-size: large;
+    border-radius: 15px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+.sub-button:hover{
+   transform: scale(.98);
+}
+
+.img-field{
+    border: 1px solid #ff523b;;
+}
