@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-267op_u-y#3rl#nvny^j_=g0ph9$&$(d(zx&vk%&crb9q!)psj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://neutronstar.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 
 
