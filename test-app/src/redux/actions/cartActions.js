@@ -4,7 +4,7 @@ import {CART_ADD, CART_REMOVE, CART_UPDATE_QTY} from '../types/cartTypes'
 
 export const addToCart = (id) => async (dispatch, getState) => {
 
-    axios.get(`http://127.0.0.1:8000/api/product/${id}/`)
+    axios.get(`/api/product/${id}/`)
     .then((response) =>{
 
         const product = response.data
@@ -28,7 +28,7 @@ export const addToCart = (id) => async (dispatch, getState) => {
 
 const updateQuantity = (id, quantity) => async (dispatch, getState) => {
 
-    axios.get(`http://127.0.0.1:8000/api/product/${id}/`)
+    axios.get(`/api/product/${id}/`)
     .then((response) =>{
 
         const product = response.data
