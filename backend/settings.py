@@ -18,9 +18,9 @@ from unittest.mock import DEFAULT
 from dotenv import load_dotenv
 load_dotenv()
 
-DB_PASSWORD = os.getenv("DB_PASSWORD")
-ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
-SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+# DB_PASSWORD = os.getenv("DB_PASSWORD")
+# ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID")
+# SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 sys.path.insert(1, os.path.dirname(os.path.realpath(__file__)))
@@ -158,7 +158,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'neutronstar',
         'USER': 'postgres',
-        'PASSWORD': DB_PASSWORD,
+        'PASSWORD': 'abdiosman143',
         'HOST': 'database-1.csml51wgn0w0.eu-north-1.rds.amazonaws.com',
         'PORT': '5432'
     }
@@ -221,8 +221,8 @@ AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
 
-AWS_ACCESS_KEY_ID = ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY = SECRET_ACCESS_KEY
+AWS_ACCESS_KEY_ID = 'AKIA4UDABGISNCX7KMX2'
+AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'neutronstar'
 
 if os.getcwd() == '/app':
